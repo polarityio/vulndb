@@ -1,6 +1,7 @@
 {
   "name": "VulnDB",
   "acronym": "VDB",
+  "defaultColor": "light-pink",
   "description": "Risk Based Security's VulnDB allows the lookup of CVEs by CVE ID.",
   "entityTypes": [],
   "customTypes": [
@@ -9,9 +10,7 @@
       "regex": "CVE-\\d{4}-\\d{4,7}"
     }
   ],
-  "styles": [
-    "./styles/vulndb.less"
-  ],
+  "styles": ["./styles/vulndb.less"],
   "block": {
     "component": {
       "file": "./components/vulndb-block.js"
