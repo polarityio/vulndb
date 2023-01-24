@@ -1,6 +1,6 @@
 let async = require('async');
 let config = require('./config/config');
-let request = require('request');
+let request = require('postman-request');
 
 let Logger;
 

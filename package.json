@@ -1,13 +1,13 @@
 {
-  "main": "./integration.js",
   "name": "vulndb",
-  "version": "1.0.0-beta",
+  "version": "1.0.1-beta",
+  "main": "./integration.js",
   "private": true,
   "license": "MIT",
   "author": "Polarity",
   "dependencies": {
     "async": "2.1.4",
-    "request": "^2.87.0"
+    "postman-request": "^2.88.1-postman.31"
   },
   "devDependencies": {
     "chai": "~3.5",

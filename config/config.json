@@ -1,0 +1,53 @@
+{
+  "name": "VulnDB",
+  "acronym": "VDB",
+  "defaultColor": "light-pink",
+  "description": "Risk Based Security's VulnDB allows the lookup of CVEs by CVE ID.",
+  "entityTypes": [],
+  "customTypes": [
+    {
+      "key": "cve",
+      "regex": "CVE-\\d{4}-\\d{4,7}"
+    }
+  ],
+  "styles": ["./styles/vulndb.less"],
+  "block": {
+    "component": {
+      "file": "./components/vulndb-block.js"
+    },
+    "template": {
+      "file": "./templates/vulndb-block.hbs"
+    }
+  },
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": "",
+    "rejectUnauthorized": true
+  },
+  "logging": {
+    "level": "info"
+  },
+  "options": [
+    {
+      "key": "key",
+      "name": "Client Key",
+      "description": "The Client Key to authenticate with, created via \"API > Overview > Register new application\"",
+      "default": "",
+      "type": "text",
+      "userCanEdit": false,
+      "adminOnly": true
+    },
+    {
+      "key": "secret",
+      "name": "Client Secret",
+      "description": "The Client Secret to authenticate with, created via \"API > Overview > Register new application\"",
+      "default": "",
+      "type": "password",
+      "userCanEdit": false,
+      "adminOnly": true
+    }
+  ]
+}
