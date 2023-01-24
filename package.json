@@ -7,7 +7,7 @@
   "author": "Polarity",
   "dependencies": {
     "async": "2.1.4",
-    "request": "^2.87.0"
+    "postman-request": "^2.88.1-postman.31"
   },
   "devDependencies": {
     "chai": "~3.5",
