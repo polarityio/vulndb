@@ -1,6 +1,6 @@
 {
   "name": "vulndb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./integration.js",
   "private": true,
   "license": "MIT",
