@@ -1,20 +1,13 @@
 {
   "name": "vulndb",
-  "version": "1.0.3",
+  "version": "3.0.4",
   "main": "./integration.js",
   "private": true,
   "license": "MIT",
   "author": "Polarity",
   "dependencies": {
-    "async": "2.1.4",
-    "postman-request": "^2.88.1-postman.31"
-  },
-  "devDependencies": {
-    "chai": "~3.5",
-    "mocha": "~3.2",
-    "node-ssh": "^5.1.1",
-    "node-watch": "^0.5.8",
-    "scp2": "^0.5.0"
+    "async": "3.2.4",
+    "postman-request": "^2.88.1-postman.33"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha --recursive",

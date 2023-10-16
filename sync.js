@@ -1,3 +1,11 @@
+/*
+TODO: Fix dependency vunlerabilties
+"devDependencies": {
+    "node-ssh": "^5.1.1",
+    "node-watch": "^0.5.8",
+    "scp2": "^0.5.0"
+},
+
 #!/usr/bin/env node
 
 let watch = require('node-watch');
@@ -74,3 +82,5 @@ function startSync(USERNAME, PASSWORD) {
         });
     });
 }
+
+*/
